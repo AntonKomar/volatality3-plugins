@@ -7,17 +7,20 @@ displays new and missing entries compared to the previous run.
 
 Example output:
 
-	Processes (pid, ppid, name):
-	+ 16239 1377 sshd
-	+ 16276 16239 bash
-	+ 16289 16276 top
-	
 	Kernel modules (offset, name):
-	- 0xffffc054ab40 floppy
-	+ 0xffffc0010180 md4
 	
-	Network sockets:
-	+ tcp 192.168.13.214:22 > 10.42.0.2:56553 1377/sshd
+	| (-) | 0xffffc054ab40 | floppy |
+	| (+) | 0xffffc0010180 | md4    |
+
+	Processes (pid, ppid, name):
+	
+	| (+) | 16239 | 1377  | sshd |
+	| (+) | 16276 | 16239 | bash |
+	| (+) | 16289 | 16276 | top  |
+	
+	Active Internet connections (prot, address (src > dst), state, pid/ppid/process):
+	
+	| (+) | tcp | 192.168.13.214:22 > 10.42.0.2:56553 | 1377/803/sshd |
 	
 	
 To run the plugin type the command with defined dump file location:
