@@ -22,13 +22,20 @@ Example output:
 	
 To run the plugin type the command with defined dump file location:
 
->>> python3 volatility3/vol.py -f dump_location linux.netcon
+```shell
+python3 volatility3/vol.py -f dump_location linux.netcon
+```
 
 Or you can run the shell script with the command:
 
->>> ./vmidet.sh $dump_name $time_interval
+```shell
+./vmidet.sh $dump_name $time_interval
+```
 
-But before it you need to run: >>> chmod +x ./vmidet.sh
+But before it you need to run:
+```shell
+chmod +x ./vmidet.sh
+```
 
 ## Requirements
 
