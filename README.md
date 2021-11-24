@@ -29,7 +29,7 @@ To run the plugin type the command with defined dump file location:
 python3 volatility3/vol.py -f dump_location linux.netcon
 ```
 
-Or you can run the shell script with the command:
+Or you can run the shell script with the command (mounts the VMI file system using vmifs if it does not exist yet and runs the plugin):
 
 ```shell
 ./vmidet.sh $dump_name $time_interval
