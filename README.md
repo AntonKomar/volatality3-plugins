@@ -20,7 +20,7 @@ Example output:
 	
 	Active Internet connections (prot, address (src > dst), state, pid/ppid/process):
 	
-	| (+) | tcp | 192.168.13.214:22 > 10.42.0.2:56553 | 1377/803/sshd |
+	| (+) | tcp | 192.168.13.214:22 > 10.42.0.2:56553 | 16239/1377/sshd |
 	
 	
 To run the plugin type the command with defined dump file location:
